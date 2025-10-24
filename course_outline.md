@@ -1,6 +1,6 @@
 # Big Data Analytics — Course Materials (Markdown)
 
-**Module title: *Big Data Analytics*
+**Module title**: *Big Data Analytics*
 
 **Assessment split:** **100% coursework** — Technical Report **30%**, Discussion Board **10%**, Big Data Architecture Project **60%**.
 Covers data pre-processing, legal/ethical issues, MapReduce/Spark, graph analytics, and future trends. Learning outcomes are targeted across lectures, labs and assessments.
