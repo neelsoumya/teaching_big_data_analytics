@@ -1,4 +1,4 @@
-# Big Data Analytics — Course Materials (Markdown)
+# Big Data Analytics: Course Materials Outline
 
 **Module title**: *Big Data Analytics*
 
