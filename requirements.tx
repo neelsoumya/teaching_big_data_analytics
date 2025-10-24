@@ -1,0 +1,48 @@
+# Creating a requirements.txt file for the Big Data Analytics course materials.
+content = """# Big Data Analytics - requirements.txt
+# Python 3.8+ recommended
+
+# Core data stack
+pandas>=1.5
+numpy>=1.23
+
+# Plotting & visualization
+matplotlib>=3.5
+seaborn>=0.12
+
+# Spark and helpers
+pyspark>=3.3
+findspark>=2.0
+
+# Graphs and ML
+networkx>=3.1
+scikit-learn>=1.2
+
+# Notebook / dev environment
+jupyterlab>=3.5
+notebook>=6.5
+
+# Parquet / fast I/O
+pyarrow>=11.0
+fastparquet>=2023.11
+
+# Databases & streaming (optional, include if using these)
+sqlalchemy>=1.4
+psycopg2-binary>=2.9  # PostgreSQL client (optional)
+kafka-python>=2.0     # Kafka client (optional)
+
+# Utilities & dev tooling
+python-dotenv>=1.0
+tqdm>=4.65
+pytest>=7.0
+
+# Formatting / linting (optional)
+black>=23.9
+"""
+
+path = "/mnt/data/requirements.txt"
+with open(path, "w") as f:
+    f.write(content)
+
+path
+
